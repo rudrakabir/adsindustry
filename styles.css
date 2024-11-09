@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
 }
 
 .container {
@@ -15,20 +15,23 @@
 header {
     background: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: 1000;
+    width: 100%;
 }
 
 .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 10px 0;
+    position: relative;
 }
 
 .logo {
     width: 130px;
-    height: 60px;
+    height: 50px;
     object-fit: contain;
 }
 
@@ -43,6 +46,8 @@ header {
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
+    padding: 8px 12px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .nav-links a.active {
@@ -59,8 +64,16 @@ header {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 5px;
+    padding: 8px;
+    -webkit-tap-highlight-color: transparent;
 }
+
+.mobile-menu-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
+
 
 /* Hero Section */
 .hero {
@@ -226,27 +239,46 @@ header {
     margin-bottom: 12px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     /* Header Mobile */
+    .header-inner {
+        padding: 8px 0;
+    }
+
     .nav-links {
         display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        padding: 8px 0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border-top: 1px solid rgba(0,0,0,0.1);
     }
 
     .nav-links.active {
         display: flex;
         flex-direction: column;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
-        background: white;
-        padding: 20px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .nav-links a {
+        padding: 12px 20px;
+        font-size: 16px;
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .nav-links a:last-child {
+        border-bottom: none;
     }
 
     .mobile-menu-btn {
         display: block;
+        margin-left: auto;
     }
 
     /* Hero Mobile */
@@ -302,5 +334,60 @@ header {
 
     .footer-logo {
         margin: 16px auto;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .header-inner {
+        padding: 8px 0;
+    }
+
+    .logo {
+        height: 40px;
+        width: 110px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+        padding: 14px 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+    }
+
+    .section-title {
+        font-size: 28px;
+        margin-bottom: 32px;
+    }
+
+    .process-item h3,
+    .usp-item h3 {
+        font-size: 15px;
+    }
+
+    .usp-item {
+        padding: 20px;
+    }
+
+    .usp-item img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* Safe area insets for newer iPhones */
+@supports (padding: max(0px)) {
+    .container {
+        padding-left: max(20px, env(safe-area-inset-left));
+        padding-right: max(20px, env(safe-area-inset-right));
+    }
+
+    header {
+        padding-top: env(safe-area-inset-top);
     }
 }
