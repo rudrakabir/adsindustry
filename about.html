@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - ADS Industries</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero-about {
+            position: relative;
+            height: 280px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-bottom: 64px;
+        }
+        
+        .hero-about::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hydraulics.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+        }
+        
+        .hero-about h1 {
+            position: relative;
+            z-index: 2;
+            font-size: 48px;
+            font-weight: 400;
+        }
+        
+        .about-content {
+            padding: 0 0 64px;
+        }
+        
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .about-text h2 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+        
+        .about-text p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+        
+        .about-image {
+            text-align: center;
+        }
+        
+        .about-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            
+            .hero-about h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <img src="images/logo.png" alt="ADS Industries" class="logo">
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12h18M3 6h18M3 18h18"/>
+                    </svg>
+                </button>
+
+                <nav class="nav-links">
+                    <a href="/">HOME</a>
+                    <a href="about.html" class="active">ABOUT US</a>
+                    <a href="products.html">OUR PRODUCTS</a>
+                    <a href="contact.html">CONTACT US</a>
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-about">
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-content">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>About ADS Industry</h2>
+                <p>Following on PVS International Industries illustrious legacy in the metal, plastics and diamond abrasive sector, ADS Industries was established to offer discerning customers high quality products in the plastic manufacturing sector.</p>
+                <p>In the face of stiff competition from Chinese made goods, ADS has thrived in the market, providing indigenously manufactured plastic goods across categories like Dispenser Pumps, PET and HDPE Bottles, Power Tools Industry Products. A renowned manufacturer of injection molded parts and products, all of our products are proudly Made In India.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/big-logo.png" alt="ADS Industries Logo">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>ADS INDUSTRY</h3>
+                    <img src="images/logo.png" alt="ADS Industries" class="footer-logo">
+                    <p>Address: Balaji Estate, Street No. 1 Plot No129 Opp. Balaji Trading, Manda Dungar Rajkot.</p>
+                    <p>Call us: +91 9662274104</p>
+                    <p>Email us: ashudhara4@gmail.com</p>
+                </div>
+                <div>
+                    <h3>QUICK LINKS</h3>
+                    <ul class="quick-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Homepage</a></li>
+                        <li><a href="products.html">Our Products</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const nav = document.querySelector('.nav-links');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

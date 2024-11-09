@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - ADS Industries</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero-products {
+            position: relative;
+            height: 280px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-bottom: 64px;
+        }
+        
+        .hero-products::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hydraulics.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+        }
+        
+        .hero-products h1 {
+            position: relative;
+            z-index: 2;
+            font-size: 48px;
+            font-weight: 400;
+        }
+        
+        .products-section {
+            padding: 64px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 48px;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background: #f8f8f8;
+        }
+        
+        .product-image img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        
+        .product-content {
+            padding: 20px;
+        }
+        
+        .product-content h3 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+        
+        .product-content p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        
+        @media (max-width: 992px) {
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-products h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <img src="images/logo.png" alt="ADS Industries" class="logo">
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12h18M3 6h18M3 18h18"/>
+                    </svg>
+                </button>
+
+                <nav class="nav-links">
+                    <a href="/">HOME</a>
+                    <a href="about.html">ABOUT US</a>
+                    <a href="products.html" class="active">OUR PRODUCTS</a>
+                    <a href="contact.html">CONTACT US</a>
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-products">
+        <h1>Our Products</h1>
+    </section>
+
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">Plastic Products</h2>
+            <div class="products-grid" id="plastic-products">
+                <!-- Products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">Metal Products</h2>
+            <div class="products-grid" id="metal-products">
+                <!-- Products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>ADS INDUSTRY</h3>
+                    <img src="images/logo.png" alt="ADS Industries" class="footer-logo">
+                    <p>Address: Balaji Estate, Street No. 1 Plot No129 Opp. Balaji Trading, Manda Dungar Rajkot.</p>
+                    <p>Call us: +91 9662274104</p>
+                    <p>Email us: ashudhara4@gmail.com</p>
+                </div>
+                <div>
+                    <h3>QUICK LINKS</h3>
+                    <ul class="quick-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Homepage</a></li>
+                        <li><a href="products.html">Our Products</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Load products from JSON file
+        fetch('products.json')
+            .then(response => response.json())
+            .then(data => {
+                // Load plastic products
+                const plasticGrid = document.getElementById('plastic-products');
+                data.plasticProducts.forEach(product => {
+                    plasticGrid.innerHTML += `
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/${product.image}" alt="${product.name}">
+                            </div>
+                            <div class="product-content">
+                                <h3>${product.name}</h3>
+                                <p>${product.description}</p>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                // Load metal products
+                const metalGrid = document.getElementById('metal-products');
+                data.metalProducts.forEach(product => {
+                    metalGrid.innerHTML += `
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/${product.image}" alt="${product.name}">
+                            </div>
+                            <div class="product-content">
+                                <h3>${product.name}</h3>
+                                <p>${product.description}</p>
+                            </div>
+                        </div>
+                    `;
+                });
+            });
+
+        function toggleMobileMenu() {
+            const nav = document.querySelector('.nav-links');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

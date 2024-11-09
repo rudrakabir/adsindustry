@@ -1,0 +1,264 @@
+{
+    "plasticProducts": [
+      {
+        "id": "velcro-pad",
+        "name": "Velcro Abrasive Pad",
+        "image": "1-1.png",
+        "description": "To be used with an angle polisher or sander, this abrasive pad atttaches easily to your machine in seconds. It's hook and loop Velcro attachment system enables easy use with any sanding disc."
+      },
+      {
+        "id": "frankfurt-adaptor-1",
+        "name": "Plastic Frankfurt Abrasive Adaptor",
+        "image": "2.png",
+        "description": "This plastic pad allows you to easily mount Frankfurt flexible pads in your grinding machine. Available across a wide range of colors, they allow for a mirror finish and low polishing costs."
+      },
+      {
+        "id": "frankfurt-adaptor-2",
+        "name": "Plastic Frankfurt Abrasive Adaptor",
+        "image": "3.png",
+        "description": "This plastic pad allows you to easily mount Frankfurt flexible pads in your grinding machine. Available across a wide range of colors, they allow for a mirror finish and low polishing costs."
+      },
+      {
+        "id": "snail-lock-1",
+        "name": "Aluminum Snail Lock Adaptor",
+        "image": "4.png",
+        "description": "With it's easy to use Twist and Lock technology, you can mount and unmount diamond polishing pads on your equipment in seconds! Reduce downtime and maximize efficiency with this nifty adaptor that makes grit changing a twist!"
+      },
+      {
+        "id": "snail-lock-2",
+        "name": "Aluminum Snail Lock Adaptor",
+        "image": "5.png",
+        "description": "With it's easy to use Twist and Lock technology, you can mount and unmount diamond polishing pads on your equipment in seconds! Reduce downtime and maximize efficiency with this nifty adaptor that makes grit changing a twist!"
+      },
+      {
+        "id": "pd-100",
+        "name": "PD 100 - Abrasive Pads",
+        "image": "6.png",
+        "description": "Available in grits compatible with PD 100 abrasive mounts, these pads are backed with Velcro and Foam making it easy to swap pads in seconds. High efficiency and economical to boot, these are the best ways to"
+      },
+      {
+        "id": "m14-pads-1",
+        "name": "M 14 Abrasive Pads",
+        "image": "7.png",
+        "description": "Available in grits compatible with M14 abrasive mounts, these pads are backed with Velcro and Foam making it easy to swap pads in seconds. High efficiency and economical to boot, these are the best ways to"
+      },
+      {
+        "id": "m10-pads-5inch",
+        "name": "M 10 Abrasive Pads (5 inch)",
+        "image": "DSC_0096-copy.png",
+        "description": "Available in grits compatible with M10 abrasive mounts, these pads are backed with Velcro and Foam making it easy to swap pads in seconds. High efficiency and economical to boot, these are the best ways to"
+      },
+      {
+        "id": "pvc-disc-5inch-1",
+        "name": "PVC Disc (5 inch)",
+        "image": "DSC_0099-copy.png",
+        "description": "This 5-inch pvc disk has a convenient thread for easy mounting to your machines, and is an economical, useful addition to any polishing set up."
+      },
+      {
+        "id": "pvc-disc-5inch-2",
+        "name": "PVC Disc (5 inch)",
+        "image": "DSC_0102-copy.png",
+        "description": "This 5-inch PVC disc has a convenient thread for easy mounting to your machines, and is an economical useful addition to any polishing set up."
+      },
+      {
+        "id": "m10-pads-5inch-2",
+        "name": "M 10 Abrasive Pads (5 inch)",
+        "image": "DSC_0107-copy.png",
+        "description": "Available in grits compatible with M10 abrasive mounts, these pads are backed with Velcro and Foam making it easy to swap pads in seconds. High efficiency and economical to boot, these are the best ways to."
+      },
+      {
+        "id": "m14-pads-2",
+        "name": "M 14 Abrasive Pads",
+        "image": "12.png",
+        "description": "Available in grits compatible with M14 abrasive mounts, these pads are backed with Velcro and Foam making it easy to swap pads in seconds. High efficiency and economical to boot, these are the best ways to."
+      },
+      {
+        "id": "frankfurt-adaptor-3",
+        "name": "Plastic Frankfurt Abrasive Adaptor",
+        "image": "13.png",
+        "description": "Use these Abrasive adapters to connect polishing pads with rotary equipment for buffing and polishing floor to attain a mirror-like shine."
+      },
+      {
+        "id": "frankfurt-velcro-pads",
+        "name": "Plastic Frankfurt Abrasive Velcro Pads",
+        "image": "14.png",
+        "description": "Use these Abrasive adapters to connect polishing pads with rotary equipment for buffing and polishing floor to attain a mirror-like shine."
+      },
+      {
+        "id": "du10-handle",
+        "name": "DU 10 Grinder Machine Handle",
+        "image": "15.png",
+        "description": "This handle is a useful way to steady your grinder machine. By offering an extra point of leverage, the handle helps to reduce vibration and give you a better grip."
+      },
+      {
+        "id": "resin-bonded-1",
+        "name": "Resin Bonded Diamond Abrasive",
+        "image": "16.png",
+        "description": "This resin bonded adhesive is a top-end formulation with silicon carbide, giving you fast, efficient abrasion with minimal wear and tear."
+      },
+      {
+        "id": "resin-bonded-2",
+        "name": "Resin Bonded Diamond Abrasive",
+        "image": "18.png",
+        "description": "This resin bonded adhesive is a top-end formulation with silicon carbide, giving you fast, efficient abrasion with minimal wear and tear."
+      },
+      {
+        "id": "plastic-attachment-shoe",
+        "name": "Plastic Attachment Shoe",
+        "image": "20.png",
+        "description": "Convert your plain plates to use Frankfurt Abrasives. 4 Bolts included."
+      },
+      {
+        "id": "m10-pads-3",
+        "name": "M 10 Abrasive Pads",
+        "image": "24.png",
+        "description": "Available in grits compatible with M10 abrasive mounts, these pads are backed with Velcro making it easy to swap pads in seconds. High efficiency and economical to boot in your hand grinder machine."
+      },
+      {
+        "id": "plastic-snail-adaptor-1",
+        "name": "Plastic Snail Abrasive Adaptor",
+        "image": "25.png",
+        "description": "For easy connection with polishing pads, this Adapter gives you quick changes with a twist and lock design, and a Velcro backing. Great for usage with flat areas and straight edges."
+      },
+      {
+        "id": "plastic-snail-adaptor-2",
+        "name": "Plastic Snail Abrasive Adaptor",
+        "image": "26.png",
+        "description": "For easy connection with polishing pads, this Adapter gives you quick changes with a twist and lock design, and a Velcro backing. Great for usage with flat areas and straight edges."
+      },
+      {
+        "id": "m10-pads-4",
+        "name": "M 10 Abrasive Pads",
+        "image": "27.png",
+        "description": "Available in grits compatible with M10 abrasive mounts, these pads are backed with Velcro making it easy to swap pads in seconds. High efficiency and economical to boot in your hand grinder machine."
+      },
+      {
+        "id": "pd100-4-5-inch",
+        "name": "PD 100 (4&5 inch) Abrasive Pads",
+        "image": "28.png",
+        "description": "With it's easy to use Twist and Lock technology, you can mount and unmount diamond polishing pads on your equipment in seconds! Reduce downtime and maximize efficiency with this nifty adaptor that makes grit changing a twist!"
+      },
+      {
+        "id": "m14-pads-3",
+        "name": "M 14 Abrasive Pads",
+        "image": "29.png",
+        "description": "Available in grits compatible with M14 abrasive mounts, these pads are backed with Velcro making it easy to swap pads in seconds. High efficiency and economical to boot in your hand grinder machine."
+      },
+      {
+        "id": "du10-pd100-pads",
+        "name": "DU 10 & PD 100 - Velcro Abrasive Pads",
+        "image": "30.png",
+        "description": "With it's easy to use Twist and Lock technology, you can mount and unmount diamond polishing pads on your equipment in seconds! Reduce downtime and maximize efficiency with this nifty adaptor that makes grit changing a twist!"
+      },
+      {
+        "id": "lotion-dispenser-1",
+        "name": "Lotion Dispenser",
+        "image": "liquid-dispenser-pump-250x250-1.png",
+        "description": "Leveraging our manufacturing strength we offer finest quality Lotion Pump in variety of colors, shapes and sizes. Our range of uniquely designed Lotion pump allows high viscosity products like lotion and liquid."
+      },
+      {
+        "id": "lotion-dispenser-2",
+        "name": "Lotion Dispenser",
+        "image": "lotion-pump-150-150.png",
+        "description": "Leveraging our manufacturing strength we offer finest quality Lotion Pump in variety of colors, shapes and sizes. Our range of uniquely designed Lotion pump allows high viscosity products like lotion and liquid."
+      },
+      {
+        "id": "splash-guard",
+        "name": "Splash Guard",
+        "image": "22.png",
+        "description": "This flexible, floating splashguard for floor polishing machines is a literal lifesaver! Weighing in at just 210 grams, this lightweight splashguard means you don't have to worry about errant splashes or stray drops mucking up that perfect finish anymore! Made from durable LD plastic, this is sure to pay for itself many times over."
+      },
+      {
+        "id": "m14-pads-4",
+        "name": "M 14 Abrasive Pads",
+        "image": "23.png",
+        "description": "Available in grits compatible with M10 abrasive mounts, these pads are backed with Velcro making it easy to swap pads in seconds. High efficiency and economical to boot in your hand grinder machine."
+      },
+      {
+        "id": "spray-pump",
+        "name": "Spray Pump",
+        "image": "Untitled-1.png",
+        "description": "Leveraging our manufacturing strength we offer finest quality Spray Pump in variety of colors, shapes and sizes. Our range of uniquely designed pump allows high viscosity products like lotion and liquid."
+      },
+      {
+        "id": "diamond-filament-brush",
+        "name": "Diamond Filament Brush",
+        "image": "Diamond-Brush-Yello.png",
+        "description": "This brush finds its applications to be used on marble, granite and sandstone for polishing, cleaning, buffing and other allied applications. The offered brush is made in line with industry standards using optimum quality materials to ensure its fine finish."
+      },
+      {
+        "id": "silicone-carbide-brush",
+        "name": "Silicone Carbide Brush",
+        "image": "Diamond-Brush-RED.png",
+        "description": "This brush finds its applications to be used on marble, granite and sandstone for polishing, cleaning, buffing and other allied applications. The offered brush is made in line with industry standards using optimum quality materials to ensure its fine finish."
+      }
+    ],
+    "metalProducts": [
+      {
+        "id": "frankfurt-heavy",
+        "name": "Frankfurt Diamond Abrasive Heavy",
+        "image": "DSC_0188-copy.png",
+        "description": "This Metallic Diamond Abrasive is designed with high power and long life in mind. For usage in polishing machines, these grinding plates use a heavy-duty diamond segment."
+      },
+      {
+        "id": "frankfurt-regular-1",
+        "name": "Frankfurt Diamond Abrasive Regular",
+        "image": "31.png",
+        "description": "This Metallic Diamond Abrasive is designed with high power and long life in mind. For usage in polishing machines, these grinding plates use a heavy-duty diamond segment."
+      },
+      {
+        "id": "frankfurt-standard",
+        "name": "Frankfurt Diamond Abrasive",
+        "image": "DSC_0177-revised.png",
+        "description": "This Metallic Diamond Abrasive is designed with high power and long life in mind. For usage in polishing machines, these grinding plates use a heavy-duty diamond segment."
+      },
+      {
+        "id": "frankfurt-regular-2",
+        "name": "Frankfurt Diamond Abrasive Regular",
+        "image": "33.png",
+        "description": "This Metallic Diamond Abrasive is designed with high power and long life in mind. For usage in polishing machines, these grinding plates use a heavy-duty diamond segment."
+      },
+      {
+        "id": "frankfurt-regular-3", 
+        "name": "Frankfurt Diamond Abrasive Regular",
+        "image": "34.png",
+        "description": "This Metallic Diamond Abrasive is designed with high power and long life in mind. For usage in polishing machines, these grinding plates use a heavy-duty diamond segment."
+      },
+      {
+        "id": "frankfurt-heavy-2",
+        "name": "Frankfurt Diamond Abrasive Heavy",
+        "image": "DSC_0186-REvised.png",
+        "description": "This Metallic Diamond Abrasive is designed with high power and long life in mind. For usage in polishing machines, these grinding plates use a heavy-duty diamond segment."
+      },
+      {
+        "id": "mixer-rod",
+        "name": "Mixer Rod",
+        "image": "Mixer-rod150-150-copy.png",
+        "description": "A stirrer rod is an equipment which is used to mix chemicals and liquids in the construction. These tool work effortlessly with minimum physical strain"
+      },
+      {
+        "id": "mixer-rod-golden",
+        "name": "Mixer Rod Golden",
+        "image": "GOLDEN-FLAT.png",
+        "description": "A stirrer rod is an equipment which is used to mix chemicals and liquids in the construction. These tool work effortlessly with minimum physical strain.This attachment is locked with Hammer Machine 220 ans 226."
+      },
+      {
+        "id": "flat-mixer-rod",
+        "name": "Flat Mixer Rod",
+        "image": "MIXER-ROD.png",
+        "description": "A stirrer rod is an equipment which is used to mix chemicals and liquids in the construction. These tool work effortlessly with minimum physical strain.This attachment is locked with Hammer Machine 220 ans 226."
+      },
+      {
+        "id": "putty-scraper",
+        "name": "Putty Scraper",
+        "image": "Putty-Knife.png",
+        "description": "Used for scrapping out waste material from surface."
+      },
+      {
+        "id": "putty-knife",
+        "name": "Putty Knife",
+        "image": "Putty-Scrapper.png",
+        "description": "Used to apply putty, Putty Knife helps in spreading out evenly across any surface"
+      }
+    ]
+  }
